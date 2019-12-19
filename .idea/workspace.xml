@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test3/UserModelApi.java" line="10" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="25a92ef9-c805-4aa0-ac5e-c229feb2f33a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test1/Client.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportDataModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportFooterModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportHeaderModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportToTxt.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportToXml.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test2/Builder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test2/ConcreteBuilder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test2/Director.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test2/Product.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test3/Builder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test3/Client.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test3/Director.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test3/TxtBuilder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test3/XmlBuilder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test4/Client.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test4/ConcreteBuilder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test4/InsuranceContract.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test5/Client.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/builder/test5/InsuranceContract.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/patterns/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/design/patterns/readme.md" afterPath="$PROJECT_DIR$/src/com/design/patterns/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test1/Client.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test1/UserManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test1/UserModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test2/Proxy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test2/RealSubject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test2/Subject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test3/Client.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test3/Proxy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test3/UserManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test3/UserModelApi.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test4/Client.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test4/Order.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test4/OrderApi.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test4/OrderProxy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test5/Client.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/design/patterns/proxy/test5/DynamicProxy.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/design_patterns/com/design/patterns/readme.md" afterPath="$PROJECT_DIR$/out/production/design_patterns/com/design/patterns/readme.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,154 +34,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InsuranceContract.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test4/InsuranceContract.java">
+      <file leaf-file-name="DynamicProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test5/DynamicProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+            <state relative-caret-position="466">
+              <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
               <folding>
-                <element signature="docComment;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;field#contractId#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;field#personName#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;field#companyName#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;field#beginDate#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;field#endDate#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;field#otherData#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="e#669#692#0" expanded="true" />
-                <element signature="e#720#743#0" expanded="true" />
-                <element signature="e#772#796#0" expanded="true" />
-                <element signature="e#823#845#0" expanded="true" />
-                <element signature="e#870#890#0" expanded="true" />
-                <element signature="e#917#939#0" expanded="true" />
-                <element signature="docComment;method#someOperation#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1045#1105#0" expanded="true" />
-                <element signature="e#1045#1105#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#DynamicProxy#0" expanded="true" />
+                <element signature="docComment;field#order#0;class#DynamicProxy#0" expanded="true" />
+                <element signature="docComment;method#getProxyInterface#0;class#DynamicProxy#0" expanded="true" />
+                <element signature="e#718#896#1" expanded="true" />
+                <element signature="e#738#895#0" expanded="true" />
+                <element signature="e#789#805#0" expanded="true" />
+                <element signature="e#789#822#0" expanded="true" />
+                <element signature="e#840#856#0" expanded="true" />
+                <element signature="e#840#872#0" expanded="true" />
+                <element signature="e#1070#1460#0" expanded="true" />
+                <element signature="e#1074#1090#0" expanded="true" />
+                <element signature="e#1070#1460#0" expanded="true" />
+                <element signature="e#1151#1450#0" expanded="true" />
+                <element signature="e#1155#1175#0" expanded="true" />
+                <element signature="e#1207#1227#0" expanded="true" />
+                <element signature="e#1207#1243#0" expanded="true" />
+                <element signature="e#1207#1243#0" expanded="true" />
+                <element signature="e#1151#1450#0" expanded="true" />
+                <element signature="e#1376#1405#0" expanded="true" />
+                <element signature="e#1376#1405#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcreteBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test4/ConcreteBuilder.java">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test5/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="134" column="1" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="134" selection-end-column="1" />
+            <state relative-caret-position="377">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="16" />
               <folding>
-                <element signature="docComment;class#ConcreteBuilder#0" expanded="true" />
-                <element signature="docComment;field#contractId#0;class#ConcreteBuilder#0" expanded="true" />
-                <element signature="docComment;field#personName#0;class#ConcreteBuilder#0" expanded="true" />
-                <element signature="docComment;field#companyName#0;class#ConcreteBuilder#0" expanded="true" />
-                <element signature="docComment;field#beginDate#0;class#ConcreteBuilder#0" expanded="true" />
-                <element signature="docComment;field#endDate#0;class#ConcreteBuilder#0" expanded="true" />
-                <element signature="docComment;field#otherData#0;class#ConcreteBuilder#0" expanded="true" />
-                <element signature="docComment;method#ConcreteBuilder#0;class#ConcreteBuilder#0" expanded="true" />
-                <element signature="docComment;method#setPersonName#0;class#ConcreteBuilder#0" expanded="true" />
-                <element signature="docComment;method#setCompanyName#0;class#ConcreteBuilder#0" expanded="true" />
-                <element signature="docComment;method#setOtherData#0;class#ConcreteBuilder#0" expanded="true" />
-                <element signature="docComment;method#build#0;class#ConcreteBuilder#0" expanded="true" />
-                <element signature="e#1706#1836#0" expanded="true" />
-                <element signature="e#1706#1836#0" expanded="true" />
-                <element signature="e#1924#1925#0" expanded="true" />
-                <element signature="e#1957#1958#0" expanded="true" />
-                <element signature="e#2009#2010#0" expanded="true" />
-                <element signature="e#2053#2054#0" expanded="true" />
-                <element signature="e#2090#2091#0" expanded="true" />
-                <element signature="e#2123#2124#0" expanded="true" />
-                <element signature="e#2162#2163#0" expanded="true" />
-                <element signature="e#2196#2197#0" expanded="true" />
-                <element signature="e#2231#2232#0" expanded="true" />
-                <element signature="e#2263#2264#0" expanded="true" />
-                <element signature="e#2311#2312#0" expanded="true" />
-                <element signature="e#2353#2354#0" expanded="true" />
-                <element signature="e#2385#2386#0" expanded="true" />
-                <element signature="e#2415#2416#0" expanded="true" />
-                <element signature="e#2459#2460#0" expanded="true" />
-                <element signature="e#2497#2498#0" expanded="true" />
-                <element signature="e#2533#2534#0" expanded="true" />
-                <element signature="e#2565#2566#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsuranceContract.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test5/InsuranceContract.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3219">
-              <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-              <folding>
-                <element signature="docComment;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;field#personName#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;field#companyName#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;field#beginDate#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;field#endDate#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;field#otherData#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;method#ConcreteBuilder#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;method#setPersonName#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;method#setCompanyName#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;method#setOtherData#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="docComment;method#build#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-                <element signature="e#2922#3060#0" expanded="true" />
-                <element signature="e#2922#3060#0" expanded="true" />
-                <element signature="e#3160#3161#0" expanded="true" />
-                <element signature="e#3201#3202#0" expanded="true" />
-                <element signature="e#3257#3258#0" expanded="true" />
-                <element signature="e#3309#3310#0" expanded="true" />
-                <element signature="e#3350#3351#0" expanded="true" />
-                <element signature="e#3391#3392#0" expanded="true" />
-                <element signature="e#3434#3435#0" expanded="true" />
-                <element signature="e#3476#3477#0" expanded="true" />
-                <element signature="e#3515#3516#0" expanded="true" />
-                <element signature="e#3555#3556#0" expanded="true" />
-                <element signature="e#3607#3608#0" expanded="true" />
-                <element signature="e#3657#3658#0" expanded="true" />
-                <element signature="e#3693#3694#0" expanded="true" />
-                <element signature="e#3731#3732#0" expanded="true" />
-                <element signature="e#3779#3780#0" expanded="true" />
-                <element signature="e#3825#3826#0" expanded="true" />
-                <element signature="e#3865#3866#0" expanded="true" />
-                <element signature="e#3905#3906#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test5/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-              <folding>
-                <element signature="e#193#314#1" expanded="true" />
-                <element signature="e#352#438#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/design/patterns/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="493">
-                <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="21" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test4/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-              <folding>
-                <element signature="e#193#278#1" expanded="true" />
-                <element signature="e#316#402#1" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#271#314#1" expanded="true" />
+                <element signature="e#342#389#1" expanded="true" />
+                <element signature="e#421#479#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,57 +102,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test1/MSIMainboard.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test1/CPUFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test1/MainboardFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test1/ComputerEngineer.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test1/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/AbstractProductA.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/AbstractProductB.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/AbstractFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/ProductA1.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/ProductA2.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/ProductB1.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/ProductB2.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/ConcreteFactory1.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/ConcreteFactory2.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test3/AbstractFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test3/Schema1.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test3/Schema2.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test3/ComputerEngineer.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test3/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/OrderMainDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/OrderDetailDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/RdbDetailDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/RdbMainDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/XmlDetailDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/XmlMainDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/DAOFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/RdbDAOFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/XmlDAOFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportHeaderModel.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportDataModel.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportFooterModel.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportToTxt.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportToXml.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test1/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test2/Builder.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test2/Product.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test2/ConcreteBuilder.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test2/Director.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test3/Builder.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test3/TxtBuilder.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test3/XmlBuilder.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test3/Director.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test3/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test4/InsuranceContract.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test4/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test4/ConcreteBuilder.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test5/InsuranceContract.java" />
-        <option value="$PROJECT_DIR$/src/com/design/patterns/builder/test5/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/test2/ConcretePrototype.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/test2/ConcretePrototype1.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/test2/ConcretePrototype2.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/test2/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/OrderApi.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/test3/OrderApi.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/test3/PersonalOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/test3/EnterpriseOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/test3/OrderBusiness.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/test3/OrderClient.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/ProductPrototype.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/test4/ProductPrototype.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/test4/PersonalOrder.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/test4/Product.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/prototype/test4/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test1/Mediator.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test1/Colleague.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test1/ConcreteColleagueA.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test1/ConcreteColleagueB.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test1/ConcreteMediator.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test2/Mediator.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test2/Colleague.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test2/CPU.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test2/VideoCard.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test2/SoundCard.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test2/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test2/CDDriver.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test2/MotherBoard.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test3/DepUserModel.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test3/DepUserMediatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test3/User.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test3/Dep.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/mediator/test3/Client.java" />
         <option value="$PROJECT_DIR$/src/com/design/patterns/readme.md" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test1/Subject.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test1/RealSubject.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test1/Proxy.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test2/Subject.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test1/UserModel.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test1/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test1/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test3/UserModelApi.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test3/Proxy.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test3/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test3/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test4/OrderApi.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test4/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test4/OrderProxy.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test4/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test5/DynamicProxy.java" />
+        <option value="$PROJECT_DIR$/src/com/design/patterns/proxy/test5/Client.java" />
       </list>
     </option>
   </component>
@@ -296,10 +189,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,10 +224,41 @@
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="design_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="test4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="test5" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,11 +268,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.design.patterns.mediator.test2" />
+      <recent name="com.design.patterns.mediator.test1" />
+      <recent name="com.design.patterns.prototype.test3" />
+      <recent name="com.design.patterns.prototype.test2" />
       <recent name="com.design.patterns.builder.test5" />
-      <recent name="com.design.patterns.abstractfactory.test4" />
-      <recent name="com.design.patterns.abstractfactory.test3" />
-      <recent name="com.design.patterns.abstractfactory.test2" />
-      <recent name="com.design.patterns.singleton.test1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\design_patterns\src\com\design\patterns\singleton\test2" />
@@ -369,15 +291,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (5)">
+  <component name="RunManager" selected="Application.Client (4)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.design.patterns.abstractfactory.test3.*" />
+          <option name="PATTERN" value="com.design.patterns.mediator.test2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.design.patterns.abstractfactory.test3.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.design.patterns.mediator.test2.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -392,11 +314,11 @@
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.design.patterns.abstractfactory.test4.*" />
+          <option name="PATTERN" value="com.design.patterns.mediator.test3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.design.patterns.abstractfactory.test4.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.design.patterns.mediator.test3.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -411,11 +333,11 @@
     <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.design.patterns.builder.test1.*" />
+          <option name="PATTERN" value="com.design.patterns.proxy.test4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.design.patterns.builder.test1.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.design.patterns.proxy.test4.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -430,30 +352,11 @@
     <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.design.patterns.builder.test3.*" />
+          <option name="PATTERN" value="com.design.patterns.proxy.test5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.design.patterns.builder.test3.Client" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="design_patterns" />
-      <envs />
-    </configuration>
-    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.design.patterns.builder.test4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.design.patterns.builder.test4.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.design.patterns.proxy.test5.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -468,11 +371,11 @@
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.design.patterns.adapter.test3.*" />
+          <option name="PATTERN" value="com.design.patterns.prototype.test4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.design.patterns.adapter.test1.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.design.patterns.prototype.test4.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -519,19 +422,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Client (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Client (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Client (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Client (4)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Client (5)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Client (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Client (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Client (3)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Client (4)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Client (5)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Client (4)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Client (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Client (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Client (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Client (4)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Client (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Client (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Client (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -553,12 +456,15 @@
       <workItem from="1575975322405" duration="3405000" />
       <workItem from="1576026688597" duration="6841000" />
       <workItem from="1576116397031" duration="8562000" />
-      <workItem from="1576203403242" duration="7363000" />
+      <workItem from="1576203403242" duration="7962000" />
+      <workItem from="1576561918747" duration="7370000" />
+      <workItem from="1576630086584" duration="8172000" />
+      <workItem from="1576716811135" duration="7657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26171000" />
+    <option name="totallyTimeSpent" value="49969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="916" extended-state="6" />
@@ -577,7 +483,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21346705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22206303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -615,719 +521,435 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test1/MainboardFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test1/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/AbstractProductA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/AbstractProductB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/ProductA1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test2/Prototype.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/ProductA2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/ProductB1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/ProductB2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/ConcreteFactory1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test2/ConcretePrototype1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/ConcreteFactory2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test2/ConcretePrototype2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="203">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test2/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test2/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="118">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test3/AbstractFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test1/OrderApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="522">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test3/Schema1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test3/OrderApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="377">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test3/Schema2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test1/ComputerEngineer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test3/ComputerEngineer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="43" column="52" lean-forward="false" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test3/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/OrderMainDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="docComment;class#OrderMainDAO#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/OrderDetailDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="docComment;class#OrderDetailDAO#0" expanded="false" />
-            <element signature="docComment;method#saveOrderDetail#0;class#OrderDetailDAO#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/RdbMainDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-          <folding>
-            <element signature="docComment;class#RdbMainDaoImpl#0" expanded="false" />
-            <element signature="e#210#211#0" expanded="false" />
-            <element signature="e#283#284#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/RdbDetailDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="9" column="67" lean-forward="false" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-          <folding>
-            <element signature="e#216#217#0" expanded="false" />
-            <element signature="e#293#294#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/XmlDetailDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/DAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="docComment;class#DAOFactory#0" expanded="false" />
-            <element signature="docComment;method#createOrderMainDAO#0;class#DAOFactory#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/RdbDAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="e#216#217#0" expanded="false" />
-            <element signature="e#259#260#0" expanded="false" />
-            <element signature="e#325#326#0" expanded="false" />
-            <element signature="e#370#371#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/XmlDAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="e#325#326#0" expanded="false" />
-            <element signature="e#370#371#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test3/EnterpriseOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test3/OrderBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test4/ProductPrototype.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test3/PersonalOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="60" column="5" lean-forward="false" selection-start-line="56" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
           <folding>
-            <element signature="docComment;class#Client#0" expanded="false" />
+            <element signature="docComment;class#PersonalOrder#0" expanded="false" />
+            <element signature="e#589#631#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/abstractfactory/test4/XmlMainDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test3/OrderClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="319">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportHeaderModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="docComment;class#ExportHeaderModel#0" expanded="false" />
-            <element signature="docComment;field#depId#0;class#ExportHeaderModel#0" expanded="false" />
-            <element signature="docComment;field#exportDate#0;class#ExportHeaderModel#0" expanded="false" />
-            <element signature="e#333#334#0" expanded="false" />
-            <element signature="e#375#376#0" expanded="false" />
-            <element signature="e#409#410#0" expanded="false" />
-            <element signature="e#446#447#0" expanded="false" />
-            <element signature="e#479#480#0" expanded="false" />
-            <element signature="e#531#532#0" expanded="false" />
-            <element signature="e#575#576#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportDataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="docComment;class#ExportDataModel#0" expanded="false" />
-            <element signature="docComment;field#productId#0;class#ExportDataModel#0" expanded="false" />
-            <element signature="docComment;field#price#0;class#ExportDataModel#0" expanded="false" />
-            <element signature="docComment;field#amount#0;class#ExportDataModel#0" expanded="false" />
-            <element signature="e#381#382#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-            <element signature="e#473#474#0" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-            <element signature="e#533#534#0" expanded="false" />
-            <element signature="e#575#576#0" expanded="false" />
-            <element signature="e#609#610#0" expanded="false" />
-            <element signature="e#642#643#0" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#715#716#0" expanded="false" />
-            <element signature="e#751#752#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportFooterModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="docComment;class#ExportFooterModel#0" expanded="false" />
-            <element signature="docComment;field#exportUser#0;class#ExportFooterModel#0" expanded="false" />
-            <element signature="e#280#281#0" expanded="false" />
-            <element signature="e#332#333#0" expanded="false" />
-            <element signature="e#376#377#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test2/Builder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test4/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="docComment;class#Builder#0" expanded="false" />
-            <element signature="docComment;method#buildPart#0;class#Builder#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test2/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
           <folding>
             <element signature="docComment;class#Product#0" expanded="false" />
+            <element signature="docComment;field#productId#0;class#Product#0" expanded="false" />
+            <element signature="docComment;field#name#0;class#Product#0" expanded="false" />
+            <element signature="e#422#423#0" expanded="false" />
+            <element signature="e#454#455#0" expanded="false" />
+            <element signature="e#504#505#0" expanded="false" />
+            <element signature="e#546#547#0" expanded="false" />
+            <element signature="e#577#578#0" expanded="false" />
+            <element signature="e#604#605#0" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
+            <element signature="e#722#723#0" expanded="false" />
+            <element signature="e#793#794#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test2/ConcreteBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test4/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#ConcreteBuilder#0" expanded="false" />
-            <element signature="docComment;field#resultProduct#0;class#ConcreteBuilder#0" expanded="false" />
-            <element signature="docComment;method#getResultProduct#0;class#ConcreteBuilder#0" expanded="false" />
-            <element signature="e#341#342#0" expanded="false" />
-            <element signature="e#377#378#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="377">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test2/Director.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/prototype/test4/PersonalOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="452">
+          <caret line="61" column="76" lean-forward="false" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
           <folding>
-            <element signature="docComment;class#Director#0" expanded="false" />
-            <element signature="docComment;field#builder#0;class#Director#0" expanded="false" />
-            <element signature="docComment;method#Director#0;class#Director#0" expanded="false" />
-            <element signature="e#315#316#0" expanded="false" />
-            <element signature="e#353#354#0" expanded="false" />
-            <element signature="docComment;method#construct#0;class#Director#0" expanded="false" />
+            <element signature="e#674#675#0" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#765#766#0" expanded="false" />
+            <element signature="e#813#814#0" expanded="false" />
+            <element signature="e#849#850#0" expanded="false" />
+            <element signature="e#881#882#0" expanded="false" />
+            <element signature="e#931#932#0" expanded="false" />
+            <element signature="e#973#974#0" expanded="false" />
+            <element signature="e#1008#1009#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
+            <element signature="e#1085#1086#0" expanded="false" />
+            <element signature="e#1123#1124#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportToTxt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#ExportToTxt#0" expanded="false" />
-            <element signature="docComment;method#export#0;class#ExportToTxt#0" expanded="false" />
-            <element signature="e#508#549#1" expanded="false" />
-            <element signature="e#594#608#0" expanded="false" />
-            <element signature="e#617#636#0" expanded="false" />
-            <element signature="e#682#696#0" expanded="false" />
-            <element signature="e#825#844#0" expanded="false" />
-            <element signature="e#901#919#0" expanded="false" />
-            <element signature="e#928#942#0" expanded="false" />
-            <element signature="e#975#990#0" expanded="false" />
-            <element signature="e#1070#1089#0" expanded="false" />
-            <element signature="e#1179#1204#0" expanded="false" />
-            <element signature="e#1179#1204#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test3/TxtBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#TxtBuilder#0" expanded="false" />
-            <element signature="docComment;field#buffer#0;class#TxtBuilder#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#585#599#0" expanded="false" />
-            <element signature="e#608#627#0" expanded="false" />
-            <element signature="e#641#642#0" expanded="false" />
-            <element signature="e#749#763#0" expanded="false" />
-            <element signature="e#892#911#0" expanded="false" />
-            <element signature="e#968#986#0" expanded="false" />
-            <element signature="e#995#1009#0" expanded="false" />
-            <element signature="e#1042#1057#0" expanded="false" />
-            <element signature="e#1164#1165#0" expanded="false" />
-            <element signature="e#1188#1207#0" expanded="false" />
-            <element signature="e#1214#1215#0" expanded="false" />
-            <element signature="e#1253#1254#0" expanded="false" />
-            <element signature="e#1282#1283#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test1/ExportToXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1421">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="49" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#ExportToXml#0" expanded="false" />
-            <element signature="docComment;method#export#0;class#ExportToXml#0" expanded="false" />
-            <element signature="e#509#550#1" expanded="false" />
-            <element signature="e#594#637#0" expanded="false" />
-            <element signature="e#662#674#0" expanded="false" />
-            <element signature="e#699#713#0" expanded="false" />
-            <element signature="e#738#783#0" expanded="false" />
-            <element signature="e#754#768#0" expanded="false" />
-            <element signature="e#738#783#0" expanded="false" />
-            <element signature="e#808#868#0" expanded="false" />
-            <element signature="e#829#848#0" expanded="false" />
-            <element signature="e#808#868#0" expanded="false" />
-            <element signature="e#893#908#0" expanded="false" />
-            <element signature="e#954#966#0" expanded="false" />
-            <element signature="e#977#1647#0" expanded="false" />
-            <element signature="e#982#996#0" expanded="false" />
-            <element signature="e#977#1647#0" expanded="false" />
-            <element signature="e#1066#1111#0" expanded="false" />
-            <element signature="e#1066#1111#0" expanded="false" />
-            <element signature="e#1157#1176#0" expanded="false" />
-            <element signature="e#1233#1251#0" expanded="false" />
-            <element signature="e#1284#1349#0" expanded="false" />
-            <element signature="e#1312#1330#0" expanded="false" />
-            <element signature="e#1284#1349#0" expanded="false" />
-            <element signature="e#1382#1435#0" expanded="false" />
-            <element signature="e#1406#1420#0" expanded="false" />
-            <element signature="e#1382#1435#0" expanded="false" />
-            <element signature="e#1468#1524#0" expanded="false" />
-            <element signature="e#1493#1508#0" expanded="false" />
-            <element signature="e#1468#1524#0" expanded="false" />
-            <element signature="e#1557#1576#0" expanded="false" />
-            <element signature="e#1619#1635#0" expanded="false" />
-            <element signature="e#1670#1683#0" expanded="false" />
-            <element signature="e#1730#1744#0" expanded="false" />
-            <element signature="e#1769#1829#0" expanded="false" />
-            <element signature="e#1790#1809#0" expanded="false" />
-            <element signature="e#1769#1829#0" expanded="false" />
-            <element signature="e#1854#1869#0" expanded="false" />
-            <element signature="e#1894#1907#0" expanded="false" />
-            <element signature="e#1997#2023#0" expanded="false" />
-            <element signature="e#1997#2023#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test3/XmlBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#XmlBuilder#0" expanded="false" />
-            <element signature="docComment;field#buffer#0;class#XmlBuilder#0" expanded="false" />
-            <element signature="e#582#625#0" expanded="false" />
-            <element signature="e#650#662#0" expanded="false" />
-            <element signature="e#687#701#0" expanded="false" />
-            <element signature="e#726#771#0" expanded="false" />
-            <element signature="e#742#756#0" expanded="false" />
-            <element signature="e#726#771#0" expanded="false" />
-            <element signature="e#796#856#0" expanded="false" />
-            <element signature="e#817#836#0" expanded="false" />
-            <element signature="e#796#856#0" expanded="false" />
-            <element signature="e#881#896#0" expanded="false" />
-            <element signature="e#1020#1032#0" expanded="false" />
-            <element signature="e#1043#1713#0" expanded="false" />
-            <element signature="e#1048#1062#0" expanded="false" />
-            <element signature="e#1043#1713#0" expanded="false" />
-            <element signature="e#1132#1177#0" expanded="false" />
-            <element signature="e#1132#1177#0" expanded="false" />
-            <element signature="e#1223#1242#0" expanded="false" />
-            <element signature="e#1299#1317#0" expanded="false" />
-            <element signature="e#1350#1415#0" expanded="false" />
-            <element signature="e#1378#1396#0" expanded="false" />
-            <element signature="e#1350#1415#0" expanded="false" />
-            <element signature="e#1448#1501#0" expanded="false" />
-            <element signature="e#1472#1486#0" expanded="false" />
-            <element signature="e#1448#1501#0" expanded="false" />
-            <element signature="e#1534#1590#0" expanded="false" />
-            <element signature="e#1559#1574#0" expanded="false" />
-            <element signature="e#1534#1590#0" expanded="false" />
-            <element signature="e#1623#1642#0" expanded="false" />
-            <element signature="e#1685#1701#0" expanded="false" />
-            <element signature="e#1736#1749#0" expanded="false" />
-            <element signature="e#1848#1862#0" expanded="false" />
-            <element signature="e#1887#1947#0" expanded="false" />
-            <element signature="e#1908#1927#0" expanded="false" />
-            <element signature="e#1887#1947#0" expanded="false" />
-            <element signature="e#1972#1987#0" expanded="false" />
-            <element signature="e#2012#2025#0" expanded="false" />
-            <element signature="e#2071#2072#0" expanded="false" />
-            <element signature="e#2100#2101#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test3/Director.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#Director#0" expanded="false" />
-            <element signature="docComment;field#builder#0;class#Director#0" expanded="false" />
-            <element signature="docComment;method#Director#0;class#Director#0" expanded="false" />
-            <element signature="e#555#556#0" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test1/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="e#198#246#1" expanded="false" />
-            <element signature="e#326#393#1" expanded="false" />
-            <element signature="e#402#454#1" expanded="false" />
-            <element signature="e#436#453#0" expanded="false" />
-            <element signature="e#463#508#1" expanded="false" />
-            <element signature="e#611#656#1" expanded="false" />
-            <element signature="e#839#887#1" expanded="false" />
-            <element signature="e#930#968#1" expanded="false" />
-            <element signature="e#1018#1056#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test3/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#463#511#1" expanded="false" />
-            <element signature="e#550#581#0" expanded="false" />
-            <element signature="e#550#581#0" expanded="false" />
-            <element signature="e#591#658#1" expanded="false" />
-            <element signature="e#667#719#1" expanded="false" />
-            <element signature="e#701#718#0" expanded="false" />
-            <element signature="e#728#773#1" expanded="false" />
-            <element signature="e#819#837#0" expanded="false" />
-            <element signature="e#819#837#0" expanded="false" />
-            <element signature="e#876#921#1" expanded="false" />
-            <element signature="e#1104#1152#1" expanded="false" />
-            <element signature="e#1195#1236#1" expanded="false" />
-            <element signature="e#1245#1290#1" expanded="false" />
-            <element signature="e#1365#1380#0" expanded="false" />
-            <element signature="e#1383#1405#0" expanded="false" />
-            <element signature="e#1365#1405#0" expanded="false" />
-            <element signature="e#1417#1458#1" expanded="false" />
-            <element signature="e#1467#1513#1" expanded="false" />
-            <element signature="e#1589#1630#0" expanded="false" />
-            <element signature="e#1608#1630#0" expanded="false" />
-            <element signature="e#1589#1630#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test3/Builder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test1/Colleague.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#Builder#0" expanded="false" />
-            <element signature="docComment;method#buildHeader#0;class#Builder#0" expanded="false" />
-            <element signature="docComment;method#buildFooter#0;class#Builder#0" expanded="false" />
+            <element signature="docComment;class#Colleague#0" expanded="false" />
+            <element signature="docComment;field#mediator#0;class#Colleague#0" expanded="false" />
+            <element signature="docComment;method#Colleague#0;class#Colleague#0" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+            <element signature="e#473#474#0" expanded="false" />
+            <element signature="e#504#505#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test4/InsuranceContract.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test1/ConcreteColleagueA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+        <state relative-caret-position="609">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
-            <element signature="docComment;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;field#contractId#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;field#personName#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;field#companyName#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;field#beginDate#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;field#endDate#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;field#otherData#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="e#669#692#0" expanded="true" />
-            <element signature="e#720#743#0" expanded="true" />
-            <element signature="e#772#796#0" expanded="true" />
-            <element signature="e#823#845#0" expanded="true" />
-            <element signature="e#870#890#0" expanded="true" />
-            <element signature="e#917#939#0" expanded="true" />
-            <element signature="docComment;method#someOperation#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1045#1105#0" expanded="true" />
-            <element signature="e#1045#1105#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="docComment;class#ConcreteColleagueA#0" expanded="false" />
+            <element signature="docComment;method#ConcreteColleagueA#0;class#ConcreteColleagueA#0" expanded="false" />
+            <element signature="e#286#287#0" expanded="false" />
+            <element signature="e#317#318#0" expanded="false" />
+            <element signature="docComment;method#someOperation#0;class#ConcreteColleagueA#0" expanded="false" />
+            <element signature="e#431#444#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test4/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#193#278#1" expanded="true" />
-            <element signature="e#316#402#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test4/test5.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test1/ConcreteColleagueB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test4/ConcreteBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test1/ConcreteMediator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="134" column="1" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="134" selection-end-column="1" />
+        <state relative-caret-position="495">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding>
-            <element signature="docComment;class#ConcreteBuilder#0" expanded="true" />
-            <element signature="docComment;field#contractId#0;class#ConcreteBuilder#0" expanded="true" />
-            <element signature="docComment;field#personName#0;class#ConcreteBuilder#0" expanded="true" />
-            <element signature="docComment;field#companyName#0;class#ConcreteBuilder#0" expanded="true" />
-            <element signature="docComment;field#beginDate#0;class#ConcreteBuilder#0" expanded="true" />
-            <element signature="docComment;field#endDate#0;class#ConcreteBuilder#0" expanded="true" />
-            <element signature="docComment;field#otherData#0;class#ConcreteBuilder#0" expanded="true" />
-            <element signature="docComment;method#ConcreteBuilder#0;class#ConcreteBuilder#0" expanded="true" />
-            <element signature="docComment;method#setPersonName#0;class#ConcreteBuilder#0" expanded="true" />
-            <element signature="docComment;method#setCompanyName#0;class#ConcreteBuilder#0" expanded="true" />
-            <element signature="docComment;method#setOtherData#0;class#ConcreteBuilder#0" expanded="true" />
-            <element signature="docComment;method#build#0;class#ConcreteBuilder#0" expanded="true" />
-            <element signature="e#1706#1836#0" expanded="true" />
-            <element signature="e#1706#1836#0" expanded="true" />
-            <element signature="e#1924#1925#0" expanded="true" />
-            <element signature="e#1957#1958#0" expanded="true" />
-            <element signature="e#2009#2010#0" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
-            <element signature="e#2090#2091#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-            <element signature="e#2196#2197#0" expanded="true" />
-            <element signature="e#2231#2232#0" expanded="true" />
-            <element signature="e#2263#2264#0" expanded="true" />
-            <element signature="e#2311#2312#0" expanded="true" />
-            <element signature="e#2353#2354#0" expanded="true" />
-            <element signature="e#2385#2386#0" expanded="true" />
-            <element signature="e#2415#2416#0" expanded="true" />
-            <element signature="e#2459#2460#0" expanded="true" />
-            <element signature="e#2497#2498#0" expanded="true" />
-            <element signature="e#2533#2534#0" expanded="true" />
-            <element signature="e#2565#2566#0" expanded="true" />
+            <element signature="docComment;class#ConcreteMediator#0" expanded="false" />
+            <element signature="docComment;field#colleagueA#0;class#ConcreteMediator#0" expanded="false" />
+            <element signature="docComment;field#colleagueB#0;class#ConcreteMediator#0" expanded="false" />
+            <element signature="docComment;method#setColleagueA#0;class#ConcreteMediator#0" expanded="false" />
+            <element signature="e#452#453#0" expanded="false" />
+            <element signature="e#496#497#0" expanded="false" />
+            <element signature="docComment;method#setColleagueB#0;class#ConcreteMediator#0" expanded="false" />
+            <element signature="e#632#633#0" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test5/InsuranceContract.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test1/Mediator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3219">
-          <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        <state relative-caret-position="348">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test2/Colleague.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="docComment;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;field#personName#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;field#companyName#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;field#beginDate#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;field#endDate#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;field#otherData#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;method#ConcreteBuilder#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;method#setPersonName#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;method#setCompanyName#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;method#setOtherData#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="docComment;method#build#0;class#ConcreteBuilder#0;class#InsuranceContract#0" expanded="true" />
-            <element signature="e#2922#3060#0" expanded="true" />
-            <element signature="e#2922#3060#0" expanded="true" />
-            <element signature="e#3160#3161#0" expanded="true" />
-            <element signature="e#3201#3202#0" expanded="true" />
-            <element signature="e#3257#3258#0" expanded="true" />
-            <element signature="e#3309#3310#0" expanded="true" />
-            <element signature="e#3350#3351#0" expanded="true" />
-            <element signature="e#3391#3392#0" expanded="true" />
-            <element signature="e#3434#3435#0" expanded="true" />
-            <element signature="e#3476#3477#0" expanded="true" />
-            <element signature="e#3515#3516#0" expanded="true" />
-            <element signature="e#3555#3556#0" expanded="true" />
-            <element signature="e#3607#3608#0" expanded="true" />
-            <element signature="e#3657#3658#0" expanded="true" />
-            <element signature="e#3693#3694#0" expanded="true" />
-            <element signature="e#3731#3732#0" expanded="true" />
-            <element signature="e#3779#3780#0" expanded="true" />
-            <element signature="e#3825#3826#0" expanded="true" />
-            <element signature="e#3865#3866#0" expanded="true" />
-            <element signature="e#3905#3906#0" expanded="true" />
+            <element signature="docComment;class#Colleague#0" expanded="false" />
+            <element signature="e#209#210#0" expanded="false" />
+            <element signature="e#249#250#0" expanded="false" />
+            <element signature="e#286#287#0" expanded="false" />
+            <element signature="e#317#318#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/builder/test5/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test2/VideoCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="435">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test2/SoundCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test2/CDDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="39" />
           <folding>
-            <element signature="e#193#314#1" expanded="true" />
-            <element signature="e#352#438#1" expanded="true" />
+            <element signature="docComment;class#CDDriver#0" expanded="false" />
+            <element signature="e#197#198#0" expanded="false" />
+            <element signature="e#228#229#0" expanded="false" />
+            <element signature="docComment;field#data#0;class#CDDriver#0" expanded="false" />
+            <element signature="docComment;method#getData#0;class#CDDriver#0" expanded="false" />
+            <element signature="e#383#384#0" expanded="false" />
+            <element signature="e#410#411#0" expanded="false" />
+            <element signature="docComment;method#readCD#0;class#CDDriver#0" expanded="false" />
+            <element signature="e#537#555#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test2/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test2/Mediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test2/MotherBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="73" column="23" lean-forward="true" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test2/CPU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_111/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="237" column="12" lean-forward="false" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test3/Dep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;class#Dep#0" expanded="true" />
+            <element signature="docComment;field#depId#0;class#Dep#0" expanded="true" />
+            <element signature="docComment;field#depName#0;class#Dep#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test3/DepUserMediatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2378">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#DepUserMediatorImpl#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="docComment;method#initTestData#0;class#DepUserMediatorImpl#0" expanded="true" />
+            <element signature="e#634#672#1" expanded="true" />
+            <element signature="e#681#700#0" expanded="true" />
+            <element signature="e#681#700#0" expanded="true" />
+            <element signature="e#710#728#0" expanded="true" />
+            <element signature="e#710#728#0" expanded="true" />
+            <element signature="e#738#761#0" expanded="true" />
+            <element signature="e#738#761#0" expanded="true" />
+            <element signature="e#804#842#1" expanded="true" />
+            <element signature="e#851#870#0" expanded="true" />
+            <element signature="e#851#870#0" expanded="true" />
+            <element signature="e#880#898#0" expanded="true" />
+            <element signature="e#880#898#0" expanded="true" />
+            <element signature="e#908#931#0" expanded="true" />
+            <element signature="e#908#931#0" expanded="true" />
+            <element signature="e#974#1012#1" expanded="true" />
+            <element signature="e#1021#1040#0" expanded="true" />
+            <element signature="e#1021#1040#0" expanded="true" />
+            <element signature="e#1050#1068#0" expanded="true" />
+            <element signature="e#1050#1068#0" expanded="true" />
+            <element signature="e#1078#1101#0" expanded="true" />
+            <element signature="e#1078#1101#0" expanded="true" />
+            <element signature="e#1144#1182#1" expanded="true" />
+            <element signature="e#1191#1210#0" expanded="true" />
+            <element signature="e#1191#1210#0" expanded="true" />
+            <element signature="e#1220#1238#0" expanded="true" />
+            <element signature="e#1220#1238#0" expanded="true" />
+            <element signature="e#1248#1271#0" expanded="true" />
+            <element signature="e#1248#1271#0" expanded="true" />
+            <element signature="e#1314#1352#1" expanded="true" />
+            <element signature="e#1361#1380#0" expanded="true" />
+            <element signature="e#1361#1380#0" expanded="true" />
+            <element signature="e#1390#1408#0" expanded="true" />
+            <element signature="e#1390#1408#0" expanded="true" />
+            <element signature="e#1418#1441#0" expanded="true" />
+            <element signature="e#1418#1441#0" expanded="true" />
+            <element signature="e#1535#1582#1" expanded="true" />
+            <element signature="e#1591#1735#0" expanded="true" />
+            <element signature="e#1596#1611#0" expanded="true" />
+            <element signature="e#1591#1735#0" expanded="true" />
+            <element signature="e#1643#1725#0" expanded="true" />
+            <element signature="e#1647#1660#0" expanded="true" />
+            <element signature="e#1643#1725#0" expanded="true" />
+            <element signature="e#1861#1908#1" expanded="true" />
+            <element signature="e#1917#2062#0" expanded="true" />
+            <element signature="e#1922#1937#0" expanded="true" />
+            <element signature="e#1917#2062#0" expanded="true" />
+            <element signature="e#1969#2052#0" expanded="true" />
+            <element signature="e#1973#1987#0" expanded="true" />
+            <element signature="e#1969#2052#0" expanded="true" />
+            <element signature="e#2181#2420#0" expanded="true" />
+            <element signature="e#2186#2201#0" expanded="true" />
+            <element signature="e#2181#2420#0" expanded="true" />
+            <element signature="e#2233#2410#0" expanded="true" />
+            <element signature="e#2237#2250#0" expanded="true" />
+            <element signature="e#2258#2272#0" expanded="true" />
+            <element signature="e#2233#2410#0" expanded="true" />
+            <element signature="e#2312#2394#0" expanded="true" />
+            <element signature="e#2322#2336#0" expanded="true" />
+            <element signature="e#2312#2394#0" expanded="true" />
+            <element signature="e#2312#2394#0" expanded="true" />
+            <element signature="e#2380#2394#0" expanded="true" />
+            <element signature="e#2312#2394#0" expanded="true" />
+            <element signature="e#2478#2718#0" expanded="true" />
+            <element signature="e#2483#2498#0" expanded="true" />
+            <element signature="e#2478#2718#0" expanded="true" />
+            <element signature="e#2530#2708#0" expanded="true" />
+            <element signature="e#2534#2548#0" expanded="true" />
+            <element signature="e#2556#2572#0" expanded="true" />
+            <element signature="e#2530#2708#0" expanded="true" />
+            <element signature="e#2612#2692#0" expanded="true" />
+            <element signature="e#2622#2638#0" expanded="true" />
+            <element signature="e#2612#2692#0" expanded="true" />
+            <element signature="e#2612#2692#0" expanded="true" />
+            <element signature="e#2679#2692#0" expanded="true" />
+            <element signature="e#2612#2692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test3/DepUserModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="docComment;class#DepUserModel#0" expanded="false" />
+            <element signature="docComment;field#depUserId#0;class#DepUserModel#0" expanded="false" />
+            <element signature="docComment;field#depId#0;class#DepUserModel#0" expanded="false" />
+            <element signature="docComment;field#userId#0;class#DepUserModel#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
+            <element signature="e#395#396#0" expanded="false" />
+            <element signature="e#445#446#0" expanded="false" />
+            <element signature="e#487#488#0" expanded="false" />
+            <element signature="e#519#520#0" expanded="false" />
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#623#624#0" expanded="false" />
+            <element signature="e#656#657#0" expanded="false" />
+            <element signature="e#685#686#0" expanded="false" />
+            <element signature="e#729#730#0" expanded="false" />
+            <element signature="e#765#766#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test3/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="42" column="20" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="docComment;class#User#0" expanded="true" />
+            <element signature="docComment;field#userId#0;class#User#0" expanded="true" />
+            <element signature="docComment;field#userName#0;class#User#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="docComment;method#dimisson#0;class#User#0" expanded="true" />
+            <element signature="e#631#696#1" expanded="true" />
+            <element signature="e#662#695#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1340,11 +962,454 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="493">
-            <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="21" />
+          <first_editor relative-caret-position="957">
+            <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/mediator/test3/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test2/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#Proxy#0" expanded="true" />
+            <element signature="docComment;field#realSubject#0;class#Proxy#0" expanded="true" />
+            <element signature="docComment;method#Proxy#0;class#Proxy#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test2/RealSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#RealSubject#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test2/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="docComment;class#Subject#0" expanded="true" />
+            <element signature="docComment;method#request#0;class#Subject#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test1/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="11" column="70" lean-forward="true" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+          <folding>
+            <element signature="e#222#266#1" expanded="true" />
+            <element signature="e#275#338#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test3/UserModelApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="docComment;class#UserModelApi#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test1/UserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+          <folding>
+            <element signature="docComment;class#UserModel#0" expanded="true" />
+            <element signature="docComment;field#userId#0;class#UserModel#0" expanded="true" />
+            <element signature="docComment;field#name#0;class#UserModel#0" expanded="true" />
+            <element signature="docComment;field#depId#0;class#UserModel#0" expanded="true" />
+            <element signature="docComment;field#sex#0;class#UserModel#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#942#1033#0" expanded="true" />
+            <element signature="e#942#1033#0" expanded="true" />
+            <element signature="e#942#1033#0" expanded="true" />
+            <element signature="e#942#1033#0" expanded="true" />
+            <element signature="e#942#1033#0" expanded="true" />
+            <element signature="e#942#1033#0" expanded="true" />
+            <element signature="e#942#1033#0" expanded="true" />
+            <element signature="e#942#1033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test3/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="102" column="28" lean-forward="true" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Proxy#0" expanded="true" />
+            <element signature="docComment;field#realSubject#0;class#Proxy#0" expanded="true" />
+            <element signature="docComment;method#Proxy#0;class#Proxy#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="docComment;field#loaded#0;class#Proxy#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#618#641#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#715#744#0" expanded="true" />
+            <element signature="e#715#744#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#812#833#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#903#928#0" expanded="true" />
+            <element signature="e#903#928#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#1013#1149#0" expanded="true" />
+            <element signature="e#1013#1149#0" expanded="true" />
+            <element signature="e#1165#1187#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1259#1286#0" expanded="true" />
+            <element signature="e#1259#1286#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1369#1505#0" expanded="true" />
+            <element signature="e#1369#1505#0" expanded="true" />
+            <element signature="e#1521#1541#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="e#1609#1632#0" expanded="true" />
+            <element signature="e#1609#1632#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="docComment;method#reload#0;class#Proxy#0" expanded="true" />
+            <element signature="e#1737#1790#0" expanded="true" />
+            <element signature="e#1767#1790#0" expanded="true" />
+            <element signature="e#1737#1790#0" expanded="true" />
+            <element signature="e#1801#1824#1" expanded="true" />
+            <element signature="e#1858#1878#0" expanded="true" />
+            <element signature="e#1892#1947#1" expanded="true" />
+            <element signature="e#1960#2013#1" expanded="true" />
+            <element signature="e#2045#2068#0" expanded="true" />
+            <element signature="e#2083#2119#1" expanded="true" />
+            <element signature="e#2132#2280#0" expanded="true" />
+            <element signature="e#2132#2280#0" expanded="true" />
+            <element signature="e#2165#2208#0" expanded="true" />
+            <element signature="e#2165#2208#0" expanded="true" />
+            <element signature="e#2226#2265#0" expanded="true" />
+            <element signature="e#2226#2265#0" expanded="true" />
+            <element signature="e#2342#2406#0" expanded="true" />
+            <element signature="e#2342#2406#0" expanded="true" />
+            <element signature="e#2479#2554#0" expanded="true" />
+            <element signature="e#2479#2554#0" expanded="true" />
+            <element signature="e#2632#2745#0" expanded="true" />
+            <element signature="e#2646#2657#0" expanded="true" />
+            <element signature="e#2632#2745#0" expanded="true" />
+            <element signature="e#2632#2745#0" expanded="true" />
+            <element signature="e#2672#2681#0" expanded="true" />
+            <element signature="e#2632#2745#0" expanded="true" />
+            <element signature="e#2632#2745#0" expanded="true" />
+            <element signature="e#2713#2723#0" expanded="true" />
+            <element signature="e#2632#2745#0" expanded="true" />
+            <element signature="e#2632#2745#0" expanded="true" />
+            <element signature="e#2737#2745#0" expanded="true" />
+            <element signature="e#2632#2745#0" expanded="true" />
+            <element signature="docComment;method#getConnection#0;class#Proxy#0" expanded="true" />
+            <marker date="1576722842507" expanded="true" signature="1906:1945" ph="select * fro... tb1_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test1/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#UserManager#0" expanded="true" />
+            <element signature="docComment;method#getUserByDepId#0;class#UserManager#0" expanded="true" />
+            <element signature="e#542#597#1" expanded="true" />
+            <element signature="e#570#596#0" expanded="true" />
+            <element signature="e#583#594#0" expanded="true" />
+            <element signature="e#606#629#1" expanded="true" />
+            <element signature="e#663#683#0" expanded="true" />
+            <element signature="e#697#816#1" expanded="true" />
+            <element signature="e#710#815#0" expanded="true" />
+            <element signature="e#829#882#1" expanded="true" />
+            <element signature="e#914#925#0" expanded="true" />
+            <element signature="e#914#925#0" expanded="true" />
+            <element signature="e#940#976#1" expanded="true" />
+            <element signature="e#989#1304#0" expanded="true" />
+            <element signature="e#989#1304#0" expanded="true" />
+            <element signature="e#1025#1056#1" expanded="true" />
+            <element signature="e#1073#1109#0" expanded="true" />
+            <element signature="e#1073#1109#0" expanded="true" />
+            <element signature="e#1127#1159#0" expanded="true" />
+            <element signature="e#1127#1159#0" expanded="true" />
+            <element signature="e#1177#1211#0" expanded="true" />
+            <element signature="e#1177#1211#0" expanded="true" />
+            <element signature="e#1229#1259#0" expanded="true" />
+            <element signature="e#1229#1259#0" expanded="true" />
+            <element signature="e#1278#1289#0" expanded="true" />
+            <element signature="e#1278#1289#0" expanded="true" />
+            <element signature="docComment;method#getConnection#0;class#UserManager#0" expanded="true" />
+            <marker date="1576721918401" expanded="true" signature="711:814" ph="select * fro... tb1_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test3/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#UserManager#0" expanded="true" />
+            <element signature="docComment;method#getUserByDepId#0;class#UserManager#0" expanded="true" />
+            <element signature="e#597#658#1" expanded="true" />
+            <element signature="e#628#657#0" expanded="true" />
+            <element signature="e#641#655#0" expanded="true" />
+            <element signature="e#667#690#1" expanded="true" />
+            <element signature="e#724#744#0" expanded="true" />
+            <element signature="e#758#892#1" expanded="true" />
+            <element signature="e#771#891#0" expanded="true" />
+            <element signature="e#905#958#1" expanded="true" />
+            <element signature="e#990#1001#0" expanded="true" />
+            <element signature="e#990#1001#0" expanded="true" />
+            <element signature="e#1016#1052#1" expanded="true" />
+            <element signature="e#1065#1405#0" expanded="true" />
+            <element signature="e#1065#1405#0" expanded="true" />
+            <element signature="e#1101#1142#1" expanded="true" />
+            <element signature="e#1159#1198#0" expanded="true" />
+            <element signature="e#1159#1198#0" expanded="true" />
+            <element signature="e#1216#1251#0" expanded="true" />
+            <element signature="e#1216#1251#0" expanded="true" />
+            <element signature="e#1269#1306#0" expanded="true" />
+            <element signature="e#1269#1306#0" expanded="true" />
+            <element signature="e#1324#1357#0" expanded="true" />
+            <element signature="e#1324#1357#0" expanded="true" />
+            <element signature="e#1376#1390#0" expanded="true" />
+            <element signature="e#1376#1390#0" expanded="true" />
+            <element signature="docComment;method#getConnection#0;class#UserManager#0" expanded="true" />
+            <marker date="1576722970832" expanded="true" signature="772:890" ph="select u.use... tb1_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test3/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="e#222#266#1" expanded="true" />
+            <element signature="e#275#341#1" expanded="true" />
+            <element signature="e#350#495#0" expanded="true" />
+            <element signature="e#355#373#0" expanded="true" />
+            <element signature="e#350#495#0" expanded="true" />
+            <element signature="e#414#483#0" expanded="true" />
+            <element signature="e#424#441#0" expanded="true" />
+            <element signature="e#414#483#0" expanded="true" />
+            <element signature="e#414#483#0" expanded="true" />
+            <element signature="e#468#483#0" expanded="true" />
+            <element signature="e#414#483#0" expanded="true" />
+            <element signature="e#504#708#0" expanded="true" />
+            <element signature="e#509#527#0" expanded="true" />
+            <element signature="e#504#708#0" expanded="true" />
+            <element signature="e#568#696#0" expanded="true" />
+            <element signature="e#578#595#0" expanded="true" />
+            <element signature="e#568#696#0" expanded="true" />
+            <element signature="e#568#696#0" expanded="true" />
+            <element signature="e#630#645#0" expanded="true" />
+            <element signature="e#568#696#0" expanded="true" />
+            <element signature="e#568#696#0" expanded="true" />
+            <element signature="e#680#696#0" expanded="true" />
+            <element signature="e#568#696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test4/OrderApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="docComment;class#OrderApi#0" expanded="true" />
+            <element signature="docComment;method#getProductName#0;class#OrderApi#0" expanded="true" />
+            <element signature="docComment;method#setProductName#0;class#OrderApi#0" expanded="true" />
+            <element signature="docComment;method#getOrderNum#0;class#OrderApi#0" expanded="true" />
+            <element signature="docComment;method#setOrderNum#0;class#OrderApi#0" expanded="true" />
+            <element signature="docComment;method#getOrderUser#0;class#OrderApi#0" expanded="true" />
+            <element signature="docComment;method#setOrderUser#0;class#OrderApi#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test4/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#Order#0" expanded="true" />
+            <element signature="docComment;field#productName#0;class#Order#0" expanded="true" />
+            <element signature="docComment;field#orderNum#0;class#Order#0" expanded="true" />
+            <element signature="docComment;field#orderUser#0;class#Order#0" expanded="true" />
+            <element signature="docComment;method#Order#0;class#Order#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1367#1467#0" expanded="true" />
+            <element signature="e#1367#1467#0" expanded="true" />
+            <element signature="e#1367#1467#0" expanded="true" />
+            <element signature="e#1367#1467#0" expanded="true" />
+            <element signature="e#1367#1467#0" expanded="true" />
+            <element signature="e#1367#1467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test4/OrderProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="65" column="37" lean-forward="false" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+          <folding>
+            <element signature="docComment;class#OrderProxy#0" expanded="true" />
+            <element signature="docComment;field#order#0;class#OrderProxy#0" expanded="true" />
+            <element signature="docComment;method#OrderProxy#0;class#OrderProxy#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#439#466#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#563#755#0" expanded="true" />
+            <element signature="e#583#615#0" expanded="true" />
+            <element signature="e#595#614#0" expanded="true" />
+            <element signature="e#583#615#0" expanded="true" />
+            <element signature="e#563#755#0" expanded="true" />
+            <element signature="e#719#743#0" expanded="true" />
+            <element signature="e#719#743#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#823#847#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#935#1121#0" expanded="true" />
+            <element signature="e#955#987#0" expanded="true" />
+            <element signature="e#967#986#0" expanded="true" />
+            <element signature="e#955#987#0" expanded="true" />
+            <element signature="e#935#1121#0" expanded="true" />
+            <element signature="e#1085#1109#0" expanded="true" />
+            <element signature="e#1085#1109#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1193#1218#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1311#1499#0" expanded="true" />
+            <element signature="e#1331#1363#0" expanded="true" />
+            <element signature="e#1343#1362#0" expanded="true" />
+            <element signature="e#1331#1363#0" expanded="true" />
+            <element signature="e#1311#1499#0" expanded="true" />
+            <element signature="e#1463#1487#0" expanded="true" />
+            <element signature="e#1463#1487#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test4/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#175#237#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test5/DynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#DynamicProxy#0" expanded="true" />
+            <element signature="docComment;field#order#0;class#DynamicProxy#0" expanded="true" />
+            <element signature="docComment;method#getProxyInterface#0;class#DynamicProxy#0" expanded="true" />
+            <element signature="e#718#896#1" expanded="true" />
+            <element signature="e#738#895#0" expanded="true" />
+            <element signature="e#789#805#0" expanded="true" />
+            <element signature="e#789#822#0" expanded="true" />
+            <element signature="e#840#856#0" expanded="true" />
+            <element signature="e#840#872#0" expanded="true" />
+            <element signature="e#1070#1460#0" expanded="true" />
+            <element signature="e#1074#1090#0" expanded="true" />
+            <element signature="e#1070#1460#0" expanded="true" />
+            <element signature="e#1151#1450#0" expanded="true" />
+            <element signature="e#1155#1175#0" expanded="true" />
+            <element signature="e#1207#1227#0" expanded="true" />
+            <element signature="e#1207#1243#0" expanded="true" />
+            <element signature="e#1207#1243#0" expanded="true" />
+            <element signature="e#1151#1450#0" expanded="true" />
+            <element signature="e#1376#1405#0" expanded="true" />
+            <element signature="e#1376#1405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/patterns/proxy/test5/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#314#1" expanded="true" />
+            <element signature="e#342#389#1" expanded="true" />
+            <element signature="e#421#479#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
