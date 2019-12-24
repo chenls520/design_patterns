@@ -132,3 +132,7 @@ public class CglibProxy implements MethodInterceptor
 
 #### command 命令模式
 * 将客户端和具体实现解耦，客户端只发出命令，不用管命令具体的实现
+
+#### iterator 迭代器模式
+* 提供访问一个聚合对象的内容，又不暴露它的内部实现
+* Java中的Iterator
