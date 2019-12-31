@@ -149,3 +149,9 @@ public class CglibProxy implements MethodInterceptor
 #### [strategy 策略模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/strategy)
 * 策略模式使用里式替换原则，具体实现由子类实现。客户端使用时选择不同实现
 * 策略模式可以通过反射机制替换掉if else判断（spring IOC中不需要使用反射，直接从容器中获取即可）
+
+#### [state 状态模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/state)
+* 状态模式，分离对象的行为和状态。根据状态不同，子类实现不同。客户端通过状态定义的接口来选择不同的子类实现
+* 状态模式和策略模式相似，区别在于使用场景不同。
+* 状态模式针对对象的状态不同选择不同的行为，策略模式针对对象行为不同选择不同的算法
+* 状态模式不能互相替换（不同级？），策略模式可以互相替换（同级？）
