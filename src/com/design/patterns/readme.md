@@ -140,3 +140,6 @@ public class CglibProxy implements MethodInterceptor
 #### [composite 组合模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/composite)
 * 将部分-整体抽象为一个对象，客户端不需要跟具体的部分或者整体对象交互，只跟抽象交互
 * 客户端处理集合中的抽象对
+
+
+####

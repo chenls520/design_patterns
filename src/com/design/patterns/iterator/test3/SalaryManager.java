@@ -2,6 +2,9 @@ package com.design.patterns.iterator.test3;
 
 import com.design.patterns.iterator.test2.PayModel;
 
+import java.util.Queue;
+import java.util.Stack;
+
 /**
  * @author chenliangsen
  * @date 2019/12/24 15:12
