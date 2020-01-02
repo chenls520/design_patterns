@@ -155,3 +155,7 @@ public class CglibProxy implements MethodInterceptor
 * 状态模式和策略模式相似，区别在于使用场景不同。
 * 状态模式针对对象的状态不同选择不同的行为，策略模式针对对象行为不同选择不同的算法
 * 状态模式不能互相替换（不同级？），策略模式可以互相替换（同级？）
+
+#### [memento 备忘录模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/memento)
+* 备忘录模式，保存和恢复内部状态（撤销和恢复操作）
+* 一个对象需要保存某一时刻的全部或者部分状态的时候使用
