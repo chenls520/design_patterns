@@ -159,3 +159,6 @@ public class CglibProxy implements MethodInterceptor
 #### [memento 备忘录模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/memento)
 * 备忘录模式，保存和恢复内部状态（撤销和恢复操作）
 * 一个对象需要保存某一时刻的全部或者部分状态的时候使用
+
+#### [flyweight 享元模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/flyweight)
+* 享元模式的本质是分离和共享，共享不变的部分。将不变的部分缓存到内存中提高效率
