@@ -164,3 +164,7 @@ public class CglibProxy implements MethodInterceptor
 * 享元模式的本质是分离和共享，共享不变的部分。将不变的部分缓存到内存中提高效率
 
 #### [interpreter 解释器模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/interpreter)
+
+#### [decorator 装饰器模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/decorator)
+* 装饰模式使用组合的方式动态添加属性和方法，比继承更灵活
+* 装饰模式可以无限传递，可以互相交换顺序，提高复用性

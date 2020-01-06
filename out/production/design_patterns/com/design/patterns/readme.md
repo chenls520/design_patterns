@@ -141,5 +141,30 @@ public class CglibProxy implements MethodInterceptor
 * 将部分-整体抽象为一个对象，客户端不需要跟具体的部分或者整体对象交互，只跟抽象交互
 * 客户端处理集合中的抽象对
 
+#### [template_method 模板方法模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/template_method)
+* 模板方法模式把公用部分封装在父类中，子类实现部分在父类中使用抽象方法的模式让子类强制实现
+* 客户端调用具体的算法由具体的子类来决定
+* 缺点：耦合性大（继承属于强耦合）
 
-####
+#### [strategy 策略模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/strategy)
+* 策略模式使用里式替换原则，具体实现由子类实现。客户端使用时选择不同实现
+* 策略模式可以通过反射机制替换掉if else判断（spring IOC中不需要使用反射，直接从容器中获取即可）
+
+#### [state 状态模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/state)
+* 状态模式，分离对象的行为和状态。根据状态不同，子类实现不同。客户端通过状态定义的接口来选择不同的子类实现
+* 状态模式和策略模式相似，区别在于使用场景不同。
+* 状态模式针对对象的状态不同选择不同的行为，策略模式针对对象行为不同选择不同的算法
+* 状态模式不能互相替换（不同级？），策略模式可以互相替换（同级？）
+
+#### [memento 备忘录模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/memento)
+* 备忘录模式，保存和恢复内部状态（撤销和恢复操作）
+* 一个对象需要保存某一时刻的全部或者部分状态的时候使用
+
+#### [flyweight 享元模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/flyweight)
+* 享元模式的本质是分离和共享，共享不变的部分。将不变的部分缓存到内存中提高效率
+
+#### [interpreter 解释器模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/interpreter)
+
+#### [decorator 装饰器模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/decorator)
+* 装饰模式使用组合的方式动态添加属性和方法，比继承更灵活
+* 装饰模式可以无限传递，可以互相交换顺序，提高复用性
