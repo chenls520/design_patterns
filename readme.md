@@ -162,3 +162,5 @@ public class CglibProxy implements MethodInterceptor
 
 #### [flyweight 享元模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/flyweight)
 * 享元模式的本质是分离和共享，共享不变的部分。将不变的部分缓存到内存中提高效率
+
+#### [interpreter 解释器模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/interpreter)
