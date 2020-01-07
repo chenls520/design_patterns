@@ -168,3 +168,8 @@ public class CglibProxy implements MethodInterceptor
 #### [decorator 装饰器模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/decorator)
 * 装饰模式使用组合的方式动态添加属性和方法，比继承更灵活
 * 装饰模式可以无限传递，可以互相交换顺序，提高复用性
+
+#### [chain_of_responsibility 职责链模式](https://github.com/chenls520/design_patterns/tree/master/src/com/design/patterns/chain_of_responsibility)
+* 职责链模式的本质是：分离职责，动态组合。把复杂的功能分开，拆成很多小的步骤和功能处理（合理的规划步骤和功能），运行期间进行动态组合，形成一个链。
+* 职责链在规划不好的情况下不会处理请求
+* 职责链跟装饰模式在某种程度上相似
