@@ -177,3 +177,6 @@ public class CglibProxy implements MethodInterceptor
 #### [bridge 桥接模式](https://github.com/clsr0901/design_patterns/tree/master/src/com/design/patterns/bridge)
 * 将抽象部分与他的实现部分分离，使他们都可以独立的变化
 * 桥接模式实现：让抽象部分拥有实现部分的的接口对象
+
+#### [visitor 访问者模式](https://github.com/clsr0901/design_patterns/tree/master/src/com/design/patterns/visitor)
+* 表示一个作用于某对象结构中的各元素的操作，它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作
